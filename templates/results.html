@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Recommendations</title>
+    <style>
+        body { font-family: sans-serif; max-width: 800px; margin: 50px auto; }
+        h1, h2 { color: #333; }
+        .recommendation { border: 1px solid #eee; padding: 15px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
+        .score { font-size: 1.5em; font-weight: bold; color: #007bff; }
+        .skills { margin-top: 10px; }
+        .matching { color: green; }
+        .missing { color: red; }
+    </style>
+</head>
+<body>
+    <h1>🧠 Your Job Recommendations</h1>
+    <h2>Skills Extracted: {{ skills|join(', ') }}</h2>
+    <hr>
+    
+    {% for reco in recommendations %}
+    <div class="recommendation">
+        <h2>{{ reco.title }}</h2>
+        <p class="score">Match Score: {{ "%.2f"|format(reco.score) }}%</p>
+        <div class="skills">
+            <p class="matching">✅ <strong>Matching Skills:</strong> {{ reco.matching_skills|join(', ') }}</p>
+            <p class="missing">📚 <strong>Missing Skills to Learn:</strong> {{ reco.missing_skills|join(', ') }}</p>
+        </div>
+    </div>
+    {% endfor %}
+    <a href="/">Analyze another resume</a>
+</body>
+</html>

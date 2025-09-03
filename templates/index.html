@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NextStepAI - Upload Resume</title>
+    <style>
+        body { font-family: sans-serif; max-width: 600px; margin: 50px auto; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { color: #333; }
+        input[type="file"] { border: 1px solid #ccc; padding: 10px; border-radius: 4px; }
+        input[type="submit"] { background-color: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>🚀 NextStepAI</h1>
+    <p>Upload your resume (PDF) to get personalized job recommendations.</p>
+    <form action="/analyze" method="post" enctype="multipart/form-data">
+        <input type="file" name="resume" accept=".pdf" required>
+        <br><br>
+        <input type="submit" value="Analyze My Resume">
+    </form>
+</body>
+</html>

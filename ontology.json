@@ -1,0 +1,43 @@
+{
+  "job_roles": [
+    {
+      "title": "Data Analyst",
+      "description": "...",
+      "required_skills": ["Python", "SQL", "Tableau", "Statistics", "Excel"]
+    },
+    {
+      "title": "Data Scientist",
+      "description": "...",
+      "required_skills": ["Python", "SQL", "Machine Learning", "Statistics", "Deep Learning", "Pandas", "Scikit-learn"]
+    },
+    {
+      "title": "Frontend Developer",
+      "description": "...",
+      "required_skills": ["HTML", "CSS", "JavaScript", "React", "Git"]
+    },
+    {
+      "title": "Backend Developer",
+      "description": "...",
+      "required_skills": ["Python", "SQL", "Django", "REST APIs", "Git", "Docker"]
+    }
+  ],
+  "skills": {
+    "Python": { "type": "Programming Language", "aliases": ["py"] },
+    "SQL": { "type": "Query Language", "aliases": ["sql", "postgresql", "mysql"] },
+    "Tableau": { "type": "Tool", "aliases": [] },
+    "Statistics": { "type": "Concept", "aliases": ["stats"] },
+    "Excel": { "type": "Tool", "aliases": ["ms excel"] },
+    "Machine Learning": { "type": "Concept", "aliases": ["ml"] },
+    "Deep Learning": { "type": "Concept", "aliases": ["dl"] },
+    "Pandas": { "type": "Library", "aliases": [] },
+    "Scikit-learn": { "type": "Library", "aliases": ["sklearn"] },
+    "HTML": { "type": "Markup Language", "aliases": ["html5"] },
+    "CSS": { "type": "Stylesheet Language", "aliases": ["css3"] },
+    "JavaScript": { "type": "Programming Language", "aliases": ["js", "es6"] },
+    "React": { "type": "Library", "aliases": ["reactjs", "react.js"] },
+    "Git": { "type": "Tool", "aliases": ["version control"] },
+    "Django": { "type": "Framework", "aliases": [] },
+    "REST APIs": { "type": "Concept", "aliases": ["restful apis", "rest"] },
+    "Docker": { "type": "Tool", "aliases": [] }
+  }
+}
