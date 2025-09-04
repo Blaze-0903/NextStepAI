@@ -2,32 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Your Recommendations</title>
-    <style>
-        body { font-family: sans-serif; max-width: 800px; margin: 50px auto; }
-        h1, h2 { color: #333; }
-        .recommendation { border: 1px solid #eee; padding: 15px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
-        .score { font-size: 1.5em; font-weight: bold; color: #007bff; }
-        .skills { margin-top: 10px; }
-        .matching { color: green; }
-        .missing { color: red; }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>🧠 Your Job Recommendations</h1>
-    <h2>Skills Extracted: {{ skills|join(', ') }}</h2>
-    <hr>
-    
-    {% for reco in recommendations %}
-    <div class="recommendation">
-        <h2>{{ reco.title }}</h2>
-        <p class="score">Match Score: {{ "%.2f"|format(reco.score) }}%</p>
-        <div class="skills">
-            <p class="matching">✅ <strong>Matching Skills:</strong> {{ reco.matching_skills|join(', ') }}</p>
-            <p class="missing">📚 <strong>Missing Skills to Learn:</strong> {{ reco.missing_skills|join(', ') }}</p>
+    <div class="container">
+        <h1>Analysis Results</h1>
+
+        <div class="results-section">
+            <h2>Extracted Skills:</h2>
+            {% if skills %}
+                <ul class="skill-list">
+                    {% for skill in skills %}
+                        <li>{{ skill }}</li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p>No skills extracted or an error occurred.</p>
+            {% endif %}
         </div>
+
+        <div class="results-section">
+            <h2>Job Role Recommendations:</h2>
+            {% if recommendations %}
+                <ul class="recommendation-list">
+                    {% for rec in recommendations %}
+                        <li>
+                            <strong>{{ rec.title }}</strong>
+                            <div class="progress-bar-container">
+                                <div class="progress-bar" style="width: {{ rec.score }}%;">
+                                    {{ "%.2f" % rec.score }}% Match
+                                </div>
+                            </div>
+                            <div class="matching-skills">
+                                <strong>Matching:</strong> {{ rec.matching_skills | join(', ') if rec.matching_skills else 'None' }}
+                            </div>
+                            <div class="missing-skills">
+                                <strong>Missing:</strong> {{ rec.missing_skills | join(', ') if rec.missing_skills else 'None' }}
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p>No job recommendations available.</p>
+            {% endif %}
+        </div>
+        
+        <a href="/" class="back-button">Analyze Another Resume</a>
     </div>
-    {% endfor %}
-    <a href="/">Analyze another resume</a>
 </body>
 </html>
