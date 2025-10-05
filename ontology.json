@@ -19,6 +19,18 @@
       "title": "Backend Developer",
       "description": "...",
       "required_skills": ["Python", "SQL", "Django", "REST APIs", "Git", "Docker"]
+    },
+    {
+      "title": "AWS Cloud Engineer",
+      "required_skills": ["AWS EC2", "AWS S3", "AWS Lambda", "Docker", "Kubernetes", "Python", "Bash Scripting", "Linux", "CI/CD", "Terraform"]
+    },
+    {
+      "title": "DevOps Engineer (AWS)",
+      "required_skills": ["AWS EC2", "AWS S3", "AWS Lambda", "Docker", "Kubernetes", "CI/CD", "Terraform", "Python", "Linux", "Git"]
+    },
+    {
+      "title": "Cloud Solutions Architect (Associate)",
+      "required_skills": ["AWS EC2", "AWS S3", "AWS VPC", "AWS Lambda", "Networking", "Security", "Problem Solving", "Cloud Architecture"]
     }
   ],
   "skills": {
@@ -38,6 +50,15 @@
     "Git": { "type": "Tool", "aliases": ["version control"] },
     "Django": { "type": "Framework", "aliases": [] },
     "REST APIs": { "type": "Concept", "aliases": ["restful apis", "rest"] },
-    "Docker": { "type": "Tool", "aliases": [] }
+    "AWS EC2": { "type": "cloud_service", "aliases": ["EC2", "Elastic Compute Cloud"] },
+    "AWS S3": { "type": "cloud_service", "aliases": ["S3", "Simple Storage Service"] },
+    "AWS Lambda": { "type": "cloud_service", "aliases": ["Lambda", "Serverless Computing"] },
+    "AWS VPC": { "type": "cloud_service", "aliases": ["VPC", "Virtual Private Cloud"] },
+    "Terraform": { "type": "infrastructure_as_code", "aliases": ["IaC", "HashiCorp Terraform"] },
+    "Docker": { "type": "containerization_tool", "aliases": ["containerization"] },
+    "Kubernetes": { "type": "container_orchestration", "aliases": ["K8s"] },
+    "CI/CD": { "type": "devops_practice", "aliases": ["Continuous Integration", "Continuous Delivery"] },
+    "Bash Scripting": { "type": "scripting_language", "aliases": ["shell scripting", "bash"] },
+    "Linux": { "type": "operating_system", "aliases": ["unix", "rhel", "ubuntu"] },
   }
 }
