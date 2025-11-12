@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+venv/
+*.pyc
+
+# Node.js
+node_modules/
+build/
+dist/
+
+# Secrets - NEVER upload these!
+.env
+backend/.env
+frontend/.env
+
+# Test Results & Logs
+test_reports/
+test_result.md
+*.log
+
+# System files
+.DS_Store
+
+# Archives
+*.zip

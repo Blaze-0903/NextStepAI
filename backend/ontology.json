@@ -1,0 +1,1216 @@
+{
+  "skills": {
+    "Python": {
+      "type": "Language",
+      "aliases": [
+        "py",
+        "python3"
+      ],
+      "learning_resources": [
+        "https://www.coursera.org/learn/python",
+        "https://www.udemy.com/course/complete-python-bootcamp/"
+      ],
+      "mention_frequency": 1123,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "JavaScript": {
+      "type": "Language",
+      "aliases": [
+        "js",
+        "node.js",
+        "nodejs"
+      ],
+      "learning_resources": [
+        "https://www.udemy.com/course/the-complete-javascript-course/",
+        "https://javascript.info/"
+      ],
+      "mention_frequency": 1056,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "React": {
+      "type": "Framework",
+      "aliases": [
+        "reactjs",
+        "react.js"
+      ],
+      "learning_resources": [
+        "https://react.dev/learn",
+        "https://www.udemy.com/course/react-the-complete-guide/"
+      ],
+      "mention_frequency": 1070,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Machine Learning": {
+      "type": "Technology",
+      "aliases": [
+        "ml",
+        "deep learning"
+      ],
+      "learning_resources": [
+        "https://www.coursera.org/learn/machine-learning",
+        "https://www.udemy.com/course/machinelearning/"
+      ],
+      "mention_frequency": 1137,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Data Analysis": {
+      "type": "Skill",
+      "aliases": [
+        "analytics",
+        "data analytics"
+      ],
+      "learning_resources": [
+        "https://www.coursera.org/learn/data-analysis-with-python",
+        "https://www.udemy.com/course/data-analysis-bootcamp/"
+      ],
+      "mention_frequency": 1052,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "SQL": {
+      "type": "Language",
+      "aliases": [
+        "mysql",
+        "postgresql",
+        "database"
+      ],
+      "learning_resources": [
+        "https://www.udemy.com/course/the-complete-sql-bootcamp/",
+        "https://mode.com/sql-tutorial/"
+      ],
+      "mention_frequency": 1144,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Git": {
+      "type": "Tool",
+      "aliases": [
+        "github",
+        "version control"
+      ],
+      "learning_resources": [
+        "https://www.udemy.com/course/git-complete/",
+        "https://git-scm.com/doc"
+      ],
+      "mention_frequency": 1119,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Docker": {
+      "type": "Tool",
+      "aliases": [
+        "containerization",
+        "containers"
+      ],
+      "learning_resources": [
+        "https://www.udemy.com/course/docker-mastery/",
+        "https://docs.docker.com/get-started/"
+      ],
+      "mention_frequency": 1090,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "AWS": {
+      "type": "Cloud",
+      "aliases": [
+        "amazon web services",
+        "cloud"
+      ],
+      "learning_resources": [
+        "https://www.udemy.com/course/aws-certified-solutions-architect-associate/",
+        "https://aws.amazon.com/training/"
+      ],
+      "mention_frequency": 1148,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Node.js": {
+      "type": "Framework",
+      "aliases": [
+        "nodejs",
+        "node"
+      ],
+      "learning_resources": [
+        "https://www.udemy.com/course/the-complete-nodejs-developer-course/",
+        "https://nodejs.dev/learn"
+      ],
+      "mention_frequency": 1082,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "TypeScript": {
+      "type": "Language",
+      "aliases": [
+        "ts"
+      ],
+      "learning_resources": [
+        "https://www.typescriptlang.org/docs/",
+        "https://www.udemy.com/course/understanding-typescript/"
+      ],
+      "mention_frequency": 1124,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "HTML": {
+      "type": "Language",
+      "aliases": [
+        "html5"
+      ],
+      "learning_resources": [
+        "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "https://www.w3schools.com/html/"
+      ],
+      "mention_frequency": 1073,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "CSS": {
+      "type": "Language",
+      "aliases": [
+        "css3",
+        "styling"
+      ],
+      "learning_resources": [
+        "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "https://www.udemy.com/course/css-the-complete-guide/"
+      ],
+      "mention_frequency": 1073,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "REST API": {
+      "type": "Skill",
+      "aliases": [
+        "api",
+        "restful",
+        "web services"
+      ],
+      "learning_resources": [
+        "https://www.udemy.com/course/rest-api/",
+        "https://restfulapi.net/"
+      ],
+      "mention_frequency": 1138,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "MongoDB": {
+      "type": "Database",
+      "aliases": [
+        "nosql",
+        "mongo"
+      ],
+      "learning_resources": [
+        "https://university.mongodb.com/",
+        "https://www.udemy.com/course/mongodb-the-complete-developers-guide/"
+      ],
+      "mention_frequency": 1059,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Pandas": {
+      "type": "Library",
+      "aliases": [
+        "data manipulation"
+      ],
+      "learning_resources": [
+        "https://pandas.pydata.org/docs/getting_started/tutorials.html",
+        "https://www.udemy.com/course/data-analysis-with-pandas/"
+      ],
+      "mention_frequency": 1115,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "NumPy": {
+      "type": "Library",
+      "aliases": [
+        "numerical computing"
+      ],
+      "learning_resources": [
+        "https://numpy.org/learn/",
+        "https://www.udemy.com/course/deep-learning-prerequisites-the-numpy-stack/"
+      ],
+      "mention_frequency": 1052,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "TensorFlow": {
+      "type": "Framework",
+      "aliases": [
+        "tf",
+        "deep learning"
+      ],
+      "learning_resources": [
+        "https://www.tensorflow.org/tutorials",
+        "https://www.udemy.com/course/complete-tensorflow-2-and-keras-deep-learning-bootcamp/"
+      ],
+      "mention_frequency": 1109,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "PyTorch": {
+      "type": "Framework",
+      "aliases": [
+        "torch"
+      ],
+      "learning_resources": [
+        "https://pytorch.org/tutorials/",
+        "https://www.udemy.com/course/pytorch-for-deep-learning/"
+      ],
+      "mention_frequency": 1088,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Kubernetes": {
+      "type": "Tool",
+      "aliases": [
+        "k8s",
+        "orchestration"
+      ],
+      "learning_resources": [
+        "https://kubernetes.io/docs/tutorials/",
+        "https://www.udemy.com/course/learn-kubernetes/"
+      ],
+      "mention_frequency": 1097,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Java": {
+      "type": "Language",
+      "aliases": [
+        "java programming"
+      ],
+      "learning_resources": [
+        "https://www.udemy.com/course/java-the-complete-java-developer-course/",
+        "https://docs.oracle.com/javase/tutorial/"
+      ],
+      "mention_frequency": 1147,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "C++": {
+      "type": "Language",
+      "aliases": [
+        "cpp",
+        "c plus plus"
+      ],
+      "learning_resources": [
+        "https://www.udemy.com/course/beginning-c-plus-plus-programming/",
+        "https://www.learncpp.com/"
+      ],
+      "mention_frequency": 1119,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Django": {
+      "type": "Framework",
+      "aliases": [
+        "python web framework"
+      ],
+      "learning_resources": [
+        "https://www.djangoproject.com/start/",
+        "https://www.udemy.com/course/python-django-dev-to-deployment/"
+      ],
+      "mention_frequency": 1070,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Flask": {
+      "type": "Framework",
+      "aliases": [
+        "flask framework"
+      ],
+      "learning_resources": [
+        "https://flask.palletsprojects.com/",
+        "https://www.udemy.com/course/rest-api-flask-and-python/"
+      ],
+      "mention_frequency": 1144,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "FastAPI": {
+      "type": "Framework",
+      "aliases": [
+        "fast api"
+      ],
+      "learning_resources": [
+        "https://fastapi.tiangolo.com/tutorial/",
+        "https://www.udemy.com/course/completefastapi/"
+      ],
+      "mention_frequency": 1124,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Angular": {
+      "type": "Framework",
+      "aliases": [
+        "angularjs"
+      ],
+      "learning_resources": [
+        "https://angular.io/tutorial",
+        "https://www.udemy.com/course/the-complete-guide-to-angular-2/"
+      ],
+      "mention_frequency": 40,
+      "last_seen_in_market": "2023-01-01"
+    },
+    "Vue.js": {
+      "type": "Framework",
+      "aliases": [
+        "vue",
+        "vuejs"
+      ],
+      "learning_resources": [
+        "https://vuejs.org/tutorial/",
+        "https://www.udemy.com/course/vuejs-2-the-complete-guide/"
+      ],
+      "mention_frequency": 1125,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Tableau": {
+      "type": "Tool",
+      "aliases": [
+        "data visualization"
+      ],
+      "learning_resources": [
+        "https://www.tableau.com/learn/training",
+        "https://www.udemy.com/course/tableau-for-beginners/"
+      ],
+      "mention_frequency": 1125,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Power BI": {
+      "type": "Tool",
+      "aliases": [
+        "powerbi",
+        "business intelligence"
+      ],
+      "learning_resources": [
+        "https://docs.microsoft.com/en-us/power-bi/",
+        "https://www.udemy.com/course/microsoft-power-bi-up-running/"
+      ],
+      "mention_frequency": 1093,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Agile": {
+      "type": "Methodology",
+      "aliases": [
+        "scrum",
+        "agile development"
+      ],
+      "learning_resources": [
+        "https://www.scrum.org/resources/what-is-scrum",
+        "https://www.udemy.com/course/agile-crash-course/"
+      ],
+      "mention_frequency": 1148,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Communication": {
+      "type": "Soft Skill",
+      "aliases": [
+        "verbal communication",
+        "written communication"
+      ],
+      "learning_resources": [
+        "https://www.coursera.org/learn/communication-skills",
+        "https://www.udemy.com/course/communication-skills-training/"
+      ],
+      "mention_frequency": 1066,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Leadership": {
+      "type": "Soft Skill",
+      "aliases": [
+        "team leadership",
+        "management"
+      ],
+      "learning_resources": [
+        "https://www.coursera.org/learn/leadership",
+        "https://www.udemy.com/course/leadership-skills/"
+      ],
+      "mention_frequency": 1122,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Problem Solving": {
+      "type": "Soft Skill",
+      "aliases": [
+        "critical thinking",
+        "analytical thinking"
+      ],
+      "learning_resources": [
+        "https://www.coursera.org/learn/critical-thinking-skills",
+        "https://www.udemy.com/course/problem-solving/"
+      ],
+      "mention_frequency": 1132,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Linux": {
+      "type": "Operating System",
+      "aliases": [
+        "unix",
+        "ubuntu",
+        "debian",
+        "red hat"
+      ],
+      "learning_resources": [
+        "https://www.udemy.com/course/linux-mastery/",
+        "https://linuxjourney.com/"
+      ],
+      "mention_frequency": 1134,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Network Firewalls": {
+      "type": "Technology",
+      "aliases": [
+        "firewall",
+        "firewall configuration"
+      ],
+      "learning_resources": [
+        "https://www.paloaltonetworks.com/cyberpedia/what-is-a-firewall",
+        "https://www.udemy.com/course/complete-networking-fundamentals-course-ccna/"
+      ],
+      "mention_frequency": 1080,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "SIEM Tools": {
+      "type": "Tool",
+      "aliases": [
+        "siem",
+        "splunk",
+        "qradar",
+        "security information and event management"
+      ],
+      "learning_resources": [
+        "https://www.splunk.com/en_us/data-insider/what-is-siem.html",
+        "https://www.udemy.com/course/splunk-beginner-to-architect/"
+      ],
+      "mention_frequency": 1097,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Intrusion Detection": {
+      "type": "Skill",
+      "aliases": [
+        "ids",
+        "ips",
+        "intrusion detection system"
+      ],
+      "learning_resources": [
+        "https://www.varonis.com/blog/intrusion-detection-system-ids",
+        "https://www.udemy.com/course/network-security-course-ids-ips-firewall-honeypot/"
+      ],
+      "mention_frequency": 1101,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Statistics": {
+      "type": "Skill",
+      "aliases": [
+        "stats",
+        "statistical analysis"
+      ],
+      "learning_resources": [
+        "https://www.coursera.org/learn/basic-statistics"
+      ],
+      "mention_frequency": 1099,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "Excel": {
+      "type": "Tool",
+      "aliases": [
+        "ms excel",
+        "microsoft excel"
+      ],
+      "learning_resources": [
+        "https://www.udemy.com/course/microsoft-excel-2013-from-beginner-to-advanced-and-beyond/"
+      ],
+      "mention_frequency": 1071,
+      "last_seen_in_market": "2025-11-12"
+    },
+    "GraphQL": {
+      "type": "Technology",
+      "aliases": [
+        "graph ql",
+        "gql"
+      ],
+      "learning_resources": [
+        "https://graphql.org/learn/",
+        "https://www.udemy.com/course/graphql-bootcamp/"
+      ],
+      "mention_frequency": 990,
+      "last_seen_in_market": "2025-11-12"
+    }
+  },
+  "job_roles": [
+    {
+      "title": "Data Scientist",
+      "description": "Analyzes complex data sets to drive business insights using machine learning and statistical methods.",
+      "experience_level": "mid",
+      "salary_range": [
+        110000,
+        150000
+      ],
+      "skill_weights": [
+        {
+          "skill": "Python",
+          "weight": 1.0,
+          "is_core": true
+        },
+        {
+          "skill": "Machine Learning",
+          "weight": 1.0,
+          "is_core": true
+        },
+        {
+          "skill": "Data Analysis",
+          "weight": 0.9,
+          "is_core": true
+        },
+        {
+          "skill": "SQL",
+          "weight": 0.8,
+          "is_core": true
+        },
+        {
+          "skill": "Pandas",
+          "weight": 0.8,
+          "is_core": false
+        },
+        {
+          "skill": "NumPy",
+          "weight": 0.7,
+          "is_core": false
+        },
+        {
+          "skill": "TensorFlow",
+          "weight": 0.6,
+          "is_core": false
+        },
+        {
+          "skill": "PyTorch",
+          "weight": 0.6,
+          "is_core": false
+        },
+        {
+          "skill": "Tableau",
+          "weight": 0.5,
+          "is_core": false
+        },
+        {
+          "skill": "Communication",
+          "weight": 0.6,
+          "is_core": false
+        }
+      ]
+    },
+    {
+      "title": "Full Stack Developer",
+      "description": "Develops both frontend and backend of web applications using modern frameworks.",
+      "experience_level": "mid",
+      "salary_range": [
+        90000,
+        130000
+      ],
+      "skill_weights": [
+        {
+          "skill": "JavaScript",
+          "weight": 1.0,
+          "is_core": true
+        },
+        {
+          "skill": "React",
+          "weight": 0.9,
+          "is_core": true
+        },
+        {
+          "skill": "Node.js",
+          "weight": 0.9,
+          "is_core": true
+        },
+        {
+          "skill": "HTML",
+          "weight": 0.8,
+          "is_core": true
+        },
+        {
+          "skill": "CSS",
+          "weight": 0.8,
+          "is_core": true
+        },
+        {
+          "skill": "REST API",
+          "weight": 0.8,
+          "is_core": true
+        },
+        {
+          "skill": "SQL",
+          "weight": 0.7,
+          "is_core": false
+        },
+        {
+          "skill": "MongoDB",
+          "weight": 0.6,
+          "is_core": false
+        },
+        {
+          "skill": "Git",
+          "weight": 0.7,
+          "is_core": false
+        },
+        {
+          "skill": "Problem Solving",
+          "weight": 0.6,
+          "is_core": false
+        }
+      ]
+    },
+    {
+      "title": "Frontend Developer",
+      "description": "Creates user interfaces and experiences for web applications.",
+      "experience_level": "mid",
+      "salary_range": [
+        80000,
+        120000
+      ],
+      "skill_weights": [
+        {
+          "skill": "JavaScript",
+          "weight": 1.0,
+          "is_core": true
+        },
+        {
+          "skill": "React",
+          "weight": 0.9,
+          "is_core": true
+        },
+        {
+          "skill": "HTML",
+          "weight": 0.9,
+          "is_core": true
+        },
+        {
+          "skill": "CSS",
+          "weight": 0.9,
+          "is_core": true
+        },
+        {
+          "skill": "TypeScript",
+          "weight": 0.7,
+          "is_core": false
+        },
+        {
+          "skill": "Git",
+          "weight": 0.6,
+          "is_core": false
+        },
+        {
+          "skill": "REST API",
+          "weight": 0.6,
+          "is_core": false
+        },
+        {
+          "skill": "Communication",
+          "weight": 0.5,
+          "is_core": false
+        }
+      ]
+    },
+    {
+      "title": "Cybersecurity Analyst",
+      "description": "Monitors security systems, analyzes threats, and responds to security incidents to protect an organization's data.",
+      "experience_level": "mid",
+      "salary_range": [
+        85000,
+        125000
+      ],
+      "skill_weights": [
+        {
+          "skill": "SIEM Tools",
+          "weight": 1.0,
+          "is_core": true
+        },
+        {
+          "skill": "Intrusion Detection",
+          "weight": 0.9,
+          "is_core": true
+        },
+        {
+          "skill": "Network Firewalls",
+          "weight": 0.8,
+          "is_core": true
+        },
+        {
+          "skill": "Python",
+          "weight": 0.7,
+          "is_core": false
+        },
+        {
+          "skill": "Linux",
+          "weight": 0.7,
+          "is_core": false
+        },
+        {
+          "skill": "Problem Solving",
+          "weight": 0.6,
+          "is_core": false
+        },
+        {
+          "skill": "Communication",
+          "weight": 0.5,
+          "is_core": false
+        }
+      ]
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "description": "Designs and implements machine learning models for production systems.",
+      "experience_level": "mid",
+      "salary_range": [
+        120000,
+        170000
+      ],
+      "skill_weights": [
+        {
+          "skill": "Python",
+          "weight": 1.0,
+          "is_core": true
+        },
+        {
+          "skill": "Machine Learning",
+          "weight": 1.0,
+          "is_core": true
+        },
+        {
+          "skill": "TensorFlow",
+          "weight": 0.9,
+          "is_core": true
+        },
+        {
+          "skill": "PyTorch",
+          "weight": 0.9,
+          "is_core": true
+        },
+        {
+          "skill": "NumPy",
+          "weight": 0.8,
+          "is_core": false
+        },
+        {
+          "skill": "Pandas",
+          "weight": 0.7,
+          "is_core": false
+        },
+        {
+          "skill": "SQL",
+          "weight": 0.6,
+          "is_core": false
+        },
+        {
+          "skill": "Docker",
+          "weight": 0.7,
+          "is_core": false
+        },
+        {
+          "skill": "AWS",
+          "weight": 0.6,
+          "is_core": false
+        },
+        {
+          "skill": "Git",
+          "weight": 0.7,
+          "is_core": false
+        }
+      ]
+    },
+    {
+      "title": "DevOps Engineer",
+      "description": "Manages infrastructure, deployment pipelines, and cloud services.",
+      "experience_level": "mid",
+      "salary_range": [
+        100000,
+        145000
+      ],
+      "skill_weights": [
+        {
+          "skill": "Docker",
+          "weight": 1.0,
+          "is_core": true
+        },
+        {
+          "skill": "Kubernetes",
+          "weight": 0.9,
+          "is_core": true
+        },
+        {
+          "skill": "AWS",
+          "weight": 0.9,
+          "is_core": true
+        },
+        {
+          "skill": "Python",
+          "weight": 0.7,
+          "is_core": false
+        },
+        {
+          "skill": "Git",
+          "weight": 0.8,
+          "is_core": false
+        },
+        {
+          "skill": "Node.js",
+          "weight": 0.5,
+          "is_core": false
+        },
+        {
+          "skill": "SQL",
+          "weight": 0.5,
+          "is_core": false
+        },
+        {
+          "skill": "Problem Solving",
+          "weight": 0.7,
+          "is_core": false
+        }
+      ]
+    },
+    {
+      "title": "Data Analyst",
+      "description": "Interprets data and creates reports to support business decisions.",
+      "experience_level": "mid",
+      "salary_range": [
+        70000,
+        100000
+      ],
+      "skill_weights": [
+        {
+          "skill": "SQL",
+          "weight": 1.0,
+          "is_core": true
+        },
+        {
+          "skill": "Data Analysis",
+          "weight": 1.0,
+          "is_core": true
+        },
+        {
+          "skill": "Tableau",
+          "weight": 0.8,
+          "is_core": true
+        },
+        {
+          "skill": "Power BI",
+          "weight": 0.8,
+          "is_core": true
+        },
+        {
+          "skill": "Excel",
+          "weight": 0.8,
+          "is_core": true
+        },
+        {
+          "skill": "Statistics",
+          "weight": 0.8,
+          "is_core": true
+        },
+        {
+          "skill": "Python",
+          "weight": 0.8,
+          "is_core": false
+        },
+        {
+          "skill": "Pandas",
+          "weight": 0.7,
+          "is_core": false
+        },
+        {
+          "skill": "Communication",
+          "weight": 0.7,
+          "is_core": false
+        }
+      ]
+    },
+    {
+      "title": "Backend Developer",
+      "description": "Builds server-side logic, APIs, and database integrations.",
+      "experience_level": "mid",
+      "salary_range": [
+        85000,
+        125000
+      ],
+      "skill_weights": [
+        {
+          "skill": "REST API",
+          "weight": 1.0,
+          "is_core": true
+        },
+        {
+          "skill": "Python",
+          "weight": 0.9,
+          "is_core": true
+        },
+        {
+          "skill": "Node.js",
+          "weight": 0.9,
+          "is_core": true
+        },
+        {
+          "skill": "SQL",
+          "weight": 0.9,
+          "is_core": true
+        },
+        {
+          "skill": "MongoDB",
+          "weight": 0.7,
+          "is_core": false
+        },
+        {
+          "skill": "Django",
+          "weight": 0.6,
+          "is_core": false
+        },
+        {
+          "skill": "Flask",
+          "weight": 0.6,
+          "is_core": false
+        },
+        {
+          "skill": "FastAPI",
+          "weight": 0.6,
+          "is_core": false
+        },
+        {
+          "skill": "Docker",
+          "weight": 0.6,
+          "is_core": false
+        },
+        {
+          "skill": "Git",
+          "weight": 0.7,
+          "is_core": false
+        },
+        {
+          "skill": "Linux",
+          "weight": 0.7,
+          "is_core": false
+        }
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "description": "Designs, develops, and maintains software applications.",
+      "experience_level": "mid",
+      "salary_range": [
+        95000,
+        135000
+      ],
+      "skill_weights": [
+        {
+          "skill": "Python",
+          "weight": 0.8,
+          "is_core": true
+        },
+        {
+          "skill": "Java",
+          "weight": 0.8,
+          "is_core": true
+        },
+        {
+          "skill": "SQL",
+          "weight": 0.7,
+          "is_core": true
+        },
+        {
+          "skill": "Git",
+          "weight": 0.8,
+          "is_core": true
+        },
+        {
+          "skill": "Problem Solving",
+          "weight": 0.9,
+          "is_core": true
+        },
+        {
+          "skill": "JavaScript",
+          "weight": 0.7,
+          "is_core": false
+        },
+        {
+          "skill": "C++",
+          "weight": 0.6,
+          "is_core": false
+        },
+        {
+          "skill": "Agile",
+          "weight": 0.6,
+          "is_core": false
+        }
+      ]
+    },
+    {
+      "title": "Cloud Architect",
+      "description": "Designs and oversees cloud infrastructure and solutions.",
+      "experience_level": "mid",
+      "salary_range": [
+        130000,
+        180000
+      ],
+      "skill_weights": [
+        {
+          "skill": "AWS",
+          "weight": 1.0,
+          "is_core": true
+        },
+        {
+          "skill": "Docker",
+          "weight": 0.8,
+          "is_core": true
+        },
+        {
+          "skill": "Kubernetes",
+          "weight": 0.8,
+          "is_core": true
+        },
+        {
+          "skill": "Problem Solving",
+          "weight": 0.8,
+          "is_core": true
+        },
+        {
+          "skill": "Python",
+          "weight": 0.6,
+          "is_core": false
+        },
+        {
+          "skill": "SQL",
+          "weight": 0.5,
+          "is_core": false
+        },
+        {
+          "skill": "Leadership",
+          "weight": 0.7,
+          "is_core": false
+        }
+      ]
+    },
+    {
+      "title": "UI/UX Designer",
+      "description": "Creates user-centered designs for digital products.",
+      "experience_level": "mid",
+      "salary_range": [
+        75000,
+        110000
+      ],
+      "skill_weights": [
+        {
+          "skill": "Communication",
+          "weight": 0.8,
+          "is_core": true
+        },
+        {
+          "skill": "Problem Solving",
+          "weight": 0.6,
+          "is_core": true
+        },
+        {
+          "skill": "HTML",
+          "weight": 0.7,
+          "is_core": false
+        },
+        {
+          "skill": "CSS",
+          "weight": 0.8,
+          "is_core": false
+        },
+        {
+          "skill": "JavaScript",
+          "weight": 0.6,
+          "is_core": false
+        },
+        {
+          "skill": "React",
+          "weight": 0.5,
+          "is_core": false
+        }
+      ]
+    },
+    {
+      "title": "AI/ML Product Manager",
+      "description": "Manages AI product development and strategy, bridging technical and business teams.",
+      "experience_level": "mid",
+      "salary_range": [
+        140000,
+        190000
+      ],
+      "skill_weights": [
+        {
+          "skill": "Communication",
+          "weight": 1.0,
+          "is_core": true
+        },
+        {
+          "skill": "Leadership",
+          "weight": 0.9,
+          "is_core": true
+        },
+        {
+          "skill": "Machine Learning",
+          "weight": 0.9,
+          "is_core": true
+        },
+        {
+          "skill": "Data Analysis",
+          "weight": 0.7,
+          "is_core": true
+        },
+        {
+          "skill": "Python",
+          "weight": 0.7,
+          "is_core": false
+        }
+      ],
+      "discovery_reason": "318 new postings in the last 2 weeks",
+      "confidence": 0.89
+    },
+    {
+      "title": "Junior DevOps Engineer",
+      "description": "Helps manage CI/CD pipelines and infrastructure automation.",
+      "salary_range": [
+        90000,
+        120000
+      ],
+      "experience_level": "entry",
+      "skill_weights": [
+        {
+          "skill": "Docker",
+          "weight": 1.0
+        },
+        {
+          "skill": "Git",
+          "weight": 0.9
+        },
+        {
+          "skill": "Python",
+          "weight": 0.7
+        },
+        {
+          "skill": "AWS",
+          "weight": 0.6
+        },
+        {
+          "skill": "Problem Solving",
+          "weight": 0.8
+        }
+      ],
+      "discovery_reason": "Trending role for 0-2 years experience",
+      "confidence": 0.9
+    },
+    {
+      "title": "Junior Data Scientist",
+      "description": "Assists senior data scientists in analyzing data and building models.",
+      "salary_range": [
+        85000,
+        115000
+      ],
+      "experience_level": "entry",
+      "skill_weights": [
+        {
+          "skill": "Python",
+          "weight": 1.0
+        },
+        {
+          "skill": "Data Analysis",
+          "weight": 1.0
+        },
+        {
+          "skill": "Pandas",
+          "weight": 0.8
+        },
+        {
+          "skill": "SQL",
+          "weight": 0.7
+        },
+        {
+          "skill": "Communication",
+          "weight": 0.6
+        }
+      ],
+      "discovery_reason": "High volume of 'Graduate Data Scientist' postings",
+      "confidence": 0.91
+    }
+  ]
+}
