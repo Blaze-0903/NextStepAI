@@ -245,7 +245,7 @@ const AdminDashboard = () => {
                               Reason: {item.discovery_reason}
                             </p>
                           </div>
-                          <div className="flex gap-2 ml-4">
+                          <div className="flex flex-col sm:flex-row gap-2 w-full sm:w-auto mt-2 sm:mt-0">
                             <Button
                               data-testid={`approve-obsolete-${index}`}
                               onClick={() => handleReview(item.id, 'approve')}
@@ -320,7 +320,7 @@ const AdminDashboard = () => {
                               </div>
                             </div>
                           </div>
-                          <div className="flex gap-2 ml-4">
+                          <div className="flex flex-col sm:flex-row gap-2 w-full sm:w-auto mt-2 sm:mt-0">
                             <Button
                               data-testid={`approve-skill-${index}`}
                               onClick={() => handleReview(item.id, 'approve')}
@@ -398,7 +398,7 @@ const AdminDashboard = () => {
                               </div>
                             </div>
                           </div>
-                          <div className="flex gap-2 ml-4">
+                          <div className="flex flex-col sm:flex-row gap-2 w-full sm:w-auto mt-2 sm:mt-0">
                             <Button
                               data-testid={`approve-role-${index}`}
                               onClick={() => handleReview(item.id, 'approve')}
