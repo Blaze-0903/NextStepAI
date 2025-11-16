@@ -16,8 +16,8 @@
 
 This project provides a complete, end-to-end solution for modern career guidance.
 
-[--- PASTE A SCREENSHOT OF YOUR 'RESULTSDASHBOARD.JS' PAGE HERE ---]
-*(Placeholder: A screenshot showing the Career Roadmap graph and the Job Cards with "Learn Now" links.)*
+<img width="537" height="707" alt="image" src="https://github.com/user-attachments/assets/224c60ac-db18-4514-b836-3d860f4c36bd" />
+
 
 * **Multi-Format Resume Parsing:** Accepts and parses both `.pdf` (using PyMuPDF) and `.docx` (using `python-docx`) files.
 * **Advanced NLP Skill Extraction:** Uses `spaCy`'s `PhraseMatcher` to read unstructured text and accurately identify a user's skills from a knowledge base of 39+ skills and their aliases.
@@ -28,8 +28,8 @@ This project provides a complete, end-to-end solution for modern career guidance
     * These suggestions are stored in a MongoDB "pending" queue.
 * **Human-in-the-Loop Admin Dashboard:** A secure `/admin` route where an administrator can log in, view pending skills, and "Approve" or "Reject" them, which instantly updates the live ontology in the cloud.
 
-[--- PASTE A SCREENSHOT OF YOUR 'ADMINDASHBOARD.JS' PAGE HERE ---]
-*(Placeholder: A screenshot showing the Admin Dashboard with "Pending Skills," "Pending Roles," and "Obsolete Skills" cards.)*
+<img width="1055" height="861" alt="admin_dashboard" src="https://github.com/user-attachments/assets/5309a436-fcd2-4d0a-b8dc-9c09098d9f0f" />
+
 
 ---
 
