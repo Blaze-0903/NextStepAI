@@ -28,7 +28,8 @@ This project provides a complete, end-to-end solution for modern career guidance
     * These suggestions are stored in a MongoDB "pending" queue.
 * **Human-in-the-Loop Admin Dashboard:** A secure `/admin` route where an administrator can log in, view pending skills, and "Approve" or "Reject" them, which instantly updates the live ontology in the cloud.
 
-<img width="1055" height="861" alt="admin_dashboard" src="https://github.com/user-attachments/assets/5309a436-fcd2-4d0a-b8dc-9c09098d9f0f" />
+<img width="809" height="777" alt="image" src="https://github.com/user-attachments/assets/3e79773d-a6eb-4414-898a-ab3072f70cc1" />
+
 
 
 ---
